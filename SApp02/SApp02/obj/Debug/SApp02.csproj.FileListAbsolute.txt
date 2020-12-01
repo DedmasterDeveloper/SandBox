@@ -1,0 +1,7 @@
+C:\Users\misha\Desktop\geekbrains\Основы языка С#\SandBox\SApp02\SApp02\bin\Debug\SApp02.exe.config
+C:\Users\misha\Desktop\geekbrains\Основы языка С#\SandBox\SApp02\SApp02\bin\Debug\SApp02.exe
+C:\Users\misha\Desktop\geekbrains\Основы языка С#\SandBox\SApp02\SApp02\bin\Debug\SApp02.pdb
+C:\Users\misha\Desktop\geekbrains\Основы языка С#\SandBox\SApp02\SApp02\obj\Debug\SApp02.csprojAssemblyReference.cache
+C:\Users\misha\Desktop\geekbrains\Основы языка С#\SandBox\SApp02\SApp02\obj\Debug\SApp02.csproj.CoreCompileInputs.cache
+C:\Users\misha\Desktop\geekbrains\Основы языка С#\SandBox\SApp02\SApp02\obj\Debug\SApp02.exe
+C:\Users\misha\Desktop\geekbrains\Основы языка С#\SandBox\SApp02\SApp02\obj\Debug\SApp02.pdb
