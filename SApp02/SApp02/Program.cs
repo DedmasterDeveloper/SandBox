@@ -11,7 +11,7 @@ namespace SApp02
         static void Main(string[] args)
         {
             double a = 1;
-            double b = 1;
+            double b = 2;
             double c = 1;
             double x = new double();
 
