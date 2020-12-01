@@ -10,7 +10,8 @@ namespace SApp01
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world");
+            string write = "Hello world";
+            Console.WriteLine(write);
             Console.ReadLine();
             
         }
