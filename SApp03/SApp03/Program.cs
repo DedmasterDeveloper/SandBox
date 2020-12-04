@@ -8,6 +8,9 @@ namespace SApp03
 {
     class Program
     {
+
+        enum Seasons { Winter, Spring, Summer, Autumn };
+
         static void Main(string[] args)
         {
             Program program = new Program();
@@ -47,6 +50,22 @@ namespace SApp03
                     Console.WriteLine("Default Value...");
                     break;
             }
+
+            Seasons seasons = Seasons.Winter;
+
+            switch(seasons)
+            {
+                case Seasons.Autumn:
+                    break;
+                case Seasons.Spring:
+                    break;
+                case Seasons.Summer:
+                    break;
+                case Seasons.Winter:
+                    Console.WriteLine("Зима");
+                    break;
+            }
+
             Console.ReadLine();
         }
     }
