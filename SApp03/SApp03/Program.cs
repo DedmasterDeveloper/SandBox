@@ -21,6 +21,7 @@ namespace SApp03
             program.fourth(f);
             Console.ReadLine();
             */
+            program.fifth();
         }
 
         public void ferst ()
@@ -91,6 +92,22 @@ namespace SApp03
                 fourth(f - 1);
                 fourth(f - 2);
                 fourth(f - 2);
+            }
+        }
+        //Задача с хонойской башней
+        public void fifth()
+        {
+            Move(4, 1, 2, 3);
+            Console.ReadLine();
+        }
+
+        static void Move(int number, int from, int to, int free)
+        {
+            if( number > 0)
+            {
+                Move(number - 1, from, free, to);
+                Console.WriteLine("Диск {0} из {1} в {2}", number, from, to);
+                Move(number - 1, free, to, from);
             }
         }
     }
