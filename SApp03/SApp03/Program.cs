@@ -8,13 +8,19 @@ namespace SApp03
 {
     class Program
     {
-
+        //Перечисляемый тип
         enum Seasons { Winter, Spring, Summer, Autumn };
 
         static void Main(string[] args)
         {
             Program program = new Program();
-            program.ferst();
+            //program.ferst();
+            //program.second();
+            /*
+            int f = 4;
+            program.fourth(f);
+            Console.ReadLine();
+            */
         }
 
         public void ferst ()
@@ -31,6 +37,7 @@ namespace SApp03
             Console.ReadLine();
         }
 
+        //Ветвление switch c перечисляемым типом enum
         public void second()
         {
             int a = 45;
@@ -67,6 +74,24 @@ namespace SApp03
             }
 
             Console.ReadLine();
+        }
+
+        //Цыклы
+        public void third()
+        {
+
+        }
+
+        //рекурсия
+        public void fourth (int f)
+        {
+            Console.WriteLine(f);
+            if(f >= 3)
+            {
+                fourth(f - 1);
+                fourth(f - 2);
+                fourth(f - 2);
+            }
         }
     }
 }
