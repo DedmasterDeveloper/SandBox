@@ -6,6 +6,19 @@ using System.Threading.Tasks;
 
 namespace SApp06
 {
+    class Complex
+    {
+        private double _re;
+        private double _im;
+
+        
+
+
+        public override string ToString()
+        {
+            return $"{_re} + {_im}";
+        }
+    }
     class Program
     {
         static void Main(string[] args)
