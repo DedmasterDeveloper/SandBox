@@ -10,6 +10,23 @@ namespace SApp08
     {
         static void Main(string[] args)
         {
+            var a = new[] { 100, 2, -5, 17, 6, 8 };
+
+            for(int i = 0; i <a.Length; i++)
+            { 
+                Console.Write($"{a[i]} "); 
+            }
+            Console.WriteLine();
+
+            Array.Sort(a);
+
+            for (int i = 0; i < a.Length; i++)
+            {
+                Console.Write($"{a[i]} ");
+            }
+            Console.WriteLine();
+
+            Console.ReadKey();
         }
     }
 }
