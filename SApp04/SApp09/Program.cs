@@ -44,6 +44,7 @@ namespace SApp09
                 Console.Write($"{arr[i]} ");
             }
             Console.WriteLine();
+            Console.WriteLine(MyClass.MyClasss.GetHelloWorld());
             Console.ReadKey();
         }
     }
