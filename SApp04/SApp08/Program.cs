@@ -26,6 +26,12 @@ namespace SApp08
             }
             Console.WriteLine();
 
+            var num = 17;
+
+            var index = Array.BinarySearch(a, num);
+
+            Console.WriteLine($"Index = {index} ");
+
             Console.ReadKey();
         }
     }
