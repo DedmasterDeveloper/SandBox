@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SApp07", "SApp07\SApp07.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SApp08", "SApp08\SApp08.csproj", "{1B39AFD4-429F-4815-9764-A190A80BB297}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SApp09", "SApp09\SApp09.csproj", "{5871A510-9337-4123-9D57-4B3BAF79A62E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{1B39AFD4-429F-4815-9764-A190A80BB297}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B39AFD4-429F-4815-9764-A190A80BB297}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B39AFD4-429F-4815-9764-A190A80BB297}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5871A510-9337-4123-9D57-4B3BAF79A62E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5871A510-9337-4123-9D57-4B3BAF79A62E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5871A510-9337-4123-9D57-4B3BAF79A62E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5871A510-9337-4123-9D57-4B3BAF79A62E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
