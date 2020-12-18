@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace SApp01
 {
+    /*
+     * Проходим делегаты
+     */
+
     delegate double DoOperation(double x, double y);
 
     class Program
