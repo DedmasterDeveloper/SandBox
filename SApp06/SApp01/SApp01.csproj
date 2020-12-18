@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B27619FE-E547-47E5-87D3-E24B29DD0149}</ProjectGuid>
+    <ProjectGuid>{1131790C-28C9-44DE-844F-845070D2F416}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SApp03</RootNamespace>
-    <AssemblyName>SApp03</AssemblyName>
+    <RootNamespace>SApp01</RootNamespace>
+    <AssemblyName>SApp01</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -47,9 +47,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="UsersList.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
